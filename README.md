@@ -11,7 +11,9 @@ Este projeto é uma aplicação desenvolvida em **Java** utilizando o framework 
 
 2. **Listagem de Chaves PIX**: Permite a consulta das chaves PIX cadastradas para um determinado usuário.
 
-3. **Geração de QR Code**: Cria QR Codes compatíveis com o padrão PIX para facilitar pagamentos. A API aceita parâmetros como valor, descrição e chave PIX para a criação dinâmica do QR Code.
+3. **Deleção de Chaves PIX**: Permite deletar chaves PIX cadastradas para um determinado usuário.
+
+4. **Geração de QR Code**: Cria QR Codes compatíveis com o padrão PIX para facilitar pagamentos. A API aceita parâmetros como valor, descrição e chave PIX para a criação dinâmica do QR Code.
 
 ## Tecnologias Utilizadas
 
