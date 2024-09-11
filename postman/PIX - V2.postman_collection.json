@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "2455cc1a-c4cb-4ba8-a0a4-baba31a346b4",
+		"name": "PIX - V2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1549293"
+	},
+	"item": [
+		{
+			"name": "Criar Chave pix",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/pix",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"pix"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Chave pix",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/pix/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"pix",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/pix?chavePix=cc93393a-fe34-4bfe-b365-abe1690c7ed3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"pix"
+					],
+					"query": [
+						{
+							"key": "chavePix",
+							"value": "cc93393a-fe34-4bfe-b365-abe1690c7ed3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fazer pix",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"chave\": \"18a513a9-fa25-4492-a87d-b9cba007aa46\",\n    \"valor\": \"100.01\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/pix",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"pix"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
