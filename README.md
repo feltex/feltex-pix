@@ -1,6 +1,15 @@
 # feltex-pix
 
 
+
+# Vídeo no youtube
+
+Assista o vídeo no youtube
+
+
+https://youtu.be/a_iYh_LnVF8
+
+
 # Sistema de Gerenciamento de Chaves PIX com Geração de QR Code
 
 Este projeto é uma aplicação desenvolvida em **Java** utilizando o framework **Spring Boot**, com o objetivo de expor uma API REST para a criação e gerenciamento de chaves PIX, além de gerar QR Codes de pagamento. A aplicação segue as melhores práticas de arquitetura de microsserviços e está preparada para integrações futuras com sistemas bancários.
